@@ -30,3 +30,10 @@ for (const blog of blogs) {
     blog.style.padding = '10px';
     blog.style.borderRadius = '5px';
 }
+
+// //--Query secelctor--//
+const allP = document.querySelectorAll('p');
+for (const p of allP) {
+    p.style.fontWeight = 'bold';
+    p.style.fontSize = '20px';
+}
