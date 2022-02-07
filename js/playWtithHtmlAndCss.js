@@ -12,3 +12,8 @@ h1.innerText = 'Create this page one using JS'
 // //--All appends--//
 header.append(h1);
 document.body.append(header);
+
+
+// //--Apply CSS--//
+header.style.border = '3px solid black';
+h1.style.textAlign = 'center';
