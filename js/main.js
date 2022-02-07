@@ -15,6 +15,13 @@ for (const h2 of allh2) {
     h2.style.color = 'white';
 }
 
+// //--Id secelctor--//
+const blogsId = document.getElementById('blogs');
+blogsId.style.border = '5px solid black';
+blogsId.style.margin = '10px';
+blogsId.style.padding = '10px';
+blogsId.style.borderRadius = '5px';
+
 // //--Class secelctor--//
 const blogs = document.getElementsByClassName('blog');
 for (const blog of blogs) {
