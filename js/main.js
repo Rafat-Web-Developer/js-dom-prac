@@ -7,7 +7,10 @@ body.style.background = 'salmon';
 // //--Tag secelctor--//
 const allh1 = document.getElementsByTagName('h1');
 for (const h1 of allh1) {
-    h1.style.color = 'teal';  
+    h1.style.color = '#4f4f7a';
+    h1.style.textAlign = 'center';
+    h1.style.fontSize = '40px';
+    h1.innerText = "Play with DOM using JS, HTML and CSS";  
 }
 
 const allh2 = document.getElementsByTagName('h2');
