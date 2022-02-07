@@ -8,13 +8,15 @@ const main = document.createElement('main');
 const blogsSection = document.createElement('section');
 const article = document.createElement('article');
 const h2 = document.createElement('h2');
+const p = document.createElement('p');
 
 // //--Set Attribute--//
 article.setAttribute('class', 'blog');
 
 // //--Set all inner text--//
 h1.innerText = 'Create this page one using JS';
-h2.innerText = 'Blog -1 ';
+h2.innerText = 'Blog - 1 ';
+p.innerText = 'This is paragraph - 1.'
 
 
 // //--All appends--//
@@ -23,11 +25,12 @@ document.body.append(header);
 main.append(blogsSection);
 blogsSection.append(article);
 article.append(h2);
+article.append(p);
 document.body.append(main);
 
 // //--All Selectors--//
 const allBlog = document.getElementsByClassName('blog');
-
+const allP = document.getElementsByTagName('p');
 
 
 // //--Apply CSS--//
@@ -42,4 +45,8 @@ for (const blog of allBlog) {
     blog.style.margin = '10px';
     blog.style.padding = '10px';
     blog.style.borderRadius = '5px';
+}
+for (const p of allP) {
+    p.style.fontSize = '16px';
+    p.style.fontWeight = 'bold';
 }
