@@ -27,3 +27,8 @@ const cyan = document.getElementById('cyan');
 cyan.addEventListener('click', function (){
     document.body.style.backgroundColor = 'cyan';
 });
+
+// //--System 7--// 
+document.getElementById('orange').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'orange';
+});
