@@ -14,3 +14,10 @@ const yellow = document.getElementById('yellow');
 yellow.onclick = function (){
     document.body.style.backgroundColor='yellow';
 };
+
+// //--System 5--// 
+const salmon = document.getElementById('salmon');
+salmon.addEventListener('click', make_salmon);
+function make_salmon (){
+    document.body.style.backgroundColor='salmon';
+}
