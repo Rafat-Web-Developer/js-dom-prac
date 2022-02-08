@@ -21,3 +21,9 @@ salmon.addEventListener('click', make_salmon);
 function make_salmon (){
     document.body.style.backgroundColor='salmon';
 }
+
+// //--System 6--// 
+const cyan = document.getElementById('cyan');
+cyan.addEventListener('click', function (){
+    document.body.style.backgroundColor = 'cyan';
+});
